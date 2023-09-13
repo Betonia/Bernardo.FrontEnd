@@ -1,0 +1,46 @@
+
+h1 {
+    color: #4d2b11; /* Cor do texto */
+    font-family: Algerian, sans-serif; /* Fonte do texto */
+}
+
+/* Estilo para parágrafos (p) */
+p {
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 0.5; /* Espaçamento entre linhas */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+}
+
+/* Estilo para a imagem */
+img {
+    max-width: 30%; /* Largura máxima da imagem */
+    height: auto; /* Altura automática proporcional */
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+/* Estilo para links (a) */
+a {
+    color: #00eeff; /* Cor do link */
+    text-decoration: none; /* Remover sublinhado padrão */
+}
+
+/* Estilo para links quando o mouse passa por cima (hover) */
+a:hover {
+    color: #465970; /* Cor do link */
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Estilo para o botão */
+.botao-simples {
+    background-color: #fff; /* Cor de fundo do botão */
+    color: #859e3a; /* Cor do texto do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+}
+
+/* Estilo para o botão quando o mouse passa por cima (hover) */
+.botao-simples:hover {
+    background-color: #a57ec8; /* Cor de fundo alterada ao passar o mouse */
+}
