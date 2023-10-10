@@ -1,0 +1,27 @@
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.rank {
+    background-color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pricipal {
+    background-color: rgb(237, 162, 162);
+
+}
+
+.elinator {
+    background-color: rgb(255, 206, 194);
+}
+
+.Mitski {
+    background-color:  rgb(255, 206, 194);
+}
+
+.Ayesha {
+    background-color: rgb(255, 206, 194);
+}

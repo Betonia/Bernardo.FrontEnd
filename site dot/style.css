@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+
+.cabeçalho {
+    display: flex;
+    text-align: end;
+    font-weight: bold;
+    background-color: #7E67B7;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opç_cabeçalho a{
+    margin: 50px;
+    text-decoration: none;
+    color: white;
+}
+ 
+  .cabeçalho__logo {
+    padding: 20px;
+    height: 50px;
+    width: 10000px;
+    display: flex;
+    justify-content: justify;
+
+}
+ 
+.cabeçalho__menu {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    background-color: #272B3A87;
+}
+ 
+.cabeçalho__item-menu a {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding:1.86em 1.42em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-pai {
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;
+    background-color: #7E67B7;
+}
+
+.container-filho {
+    background-color:#b699ff;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagem-instrumento {
+    max-width: 30%;
+    border-radius: 100%;
+}
+
+container-2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.imagem2 {
+    width: 400px;
+}
+
+.imagem-filha {
+    max-width: 200%;
+    max-height: 200%;
+    border-radius: 10px;
+}
+
+.avo {
+    background-color: aqua;
+    display: flex;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pai {
+    border: 1px solid rgb(255, 0, 0);
+    background-color: black;
+    height: 250;
+    width: 200;
+    padding-top: 50px;
+}
+.filho {
+    width: 50%;
+    height: 50%;
+}
+.pai-footer {
+background-color: #7E67B7;
+}
+
+
+.banner {
+    background-color: #7E67B7;
+    height: 100px;
+    width: 1423px;
+}
+
+.inform {
+    background-color: rgba(0, 0, 0, 0.469);
+}
+
+
+#logoimg {
+    margin-top: 10px;
+    width: 250px;
+    height: 150px;
+}
+table {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    border-spacing: 0px;
+}
+
+th, td {
+    border: 1px solid #8e75cf;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #8e75cf;
+}        
+td {
+    background-color:  #8e75cf;
+}
