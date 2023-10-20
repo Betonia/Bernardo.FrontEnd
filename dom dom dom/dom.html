@@ -21,6 +21,7 @@
     <p class="pClass"></p>
     <button>clique em mim</button>
     <button id="botao2">clique em mim tambem</button>
+    <button id="botaoAbrirImagem">clique em mim tambem</button>
 
     <script>
         let corpo = document.body
@@ -78,6 +79,28 @@
         document.addEventListener('keydown', function(event) {
             console.log('tecla pressionada')
         })
+        document.addEventListener('keydown', function(event) {
+            console.log("tecla clicada" + event.key);
+        });
+
+
+
+        document.addEventListener('dblclick', function(event) {
+
+            if (corpo.style.backgroundColor !== 'pink') {
+                corpo.style.backgroundColor = 'pink';
+            } else {
+                corpo.style.backgroundColor = blue
+            }
+        })
+        let botaoAbrirImagem = document.getElementById("botaoAbrirImagem");
+
+        botaoAbrirImagem.addEventListener("click", function() {
+            setTimeout(function() {
+                window.open("je.gif", "_blank");
+
+            }, 5000);
+        });
 
     </script>
 
