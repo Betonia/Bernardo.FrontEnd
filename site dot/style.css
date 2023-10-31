@@ -1,14 +1,26 @@
 body {
     margin: 0;
+    background-color: #7E67B7;
+    color:white;
+
 }
 
 .cabeçalho {
     display: flex;
     text-align: end;
     font-weight: bold;
-    background-color: #7E67B7;
+    background-color: #b297f5;
     align-items: center;
     justify-content: space-between;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.personagens {
+    background-color: #8e75cf;
+    margin: 30px;
+    border-radius: 50px;
+    text-align: center;
 }
 
 .opç_cabeçalho a{
@@ -63,7 +75,7 @@ body {
 
 .imagem-instrumento {
     max-width: 30%;
-    border-radius: 100%;
+    border-radius: 100px;
 }
 
 container-2 {
@@ -76,9 +88,9 @@ container-2 {
 
 .texto {
     color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
     margin-right: 50px;
+
 }
 
 .imagem2 {
@@ -92,7 +104,7 @@ container-2 {
 }
 
 .avo {
-    background-color: aqua;
+    background-color: #7E67B7 ;
     display: flex;
     padding: 10px;
     padding-top: 20px;
@@ -114,12 +126,18 @@ container-2 {
 background-color: #7E67B7;
 }
 
-
-.banner {
-    background-color: #7E67B7;
-    height: 100px;
-    width: 1423px;
+.subtitulo {
+    margin: 100px;
+    border-radius: 10px;
+    background-color: #b699ff;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
 }
+
+
+
 
 .inform {
     background-color: rgba(0, 0, 0, 0.469);
@@ -150,3 +168,21 @@ th {
 td {
     background-color:  #8e75cf;
 }
+
+
+/* estilos para desktop*/
+@media (max-width: 769px) {
+
+}
+
+@media (min-width: 769px) {
+}
+
+.texto {
+    background-color: #7E67B7;
+    color: white;
+    text-align: center;
+    justify-content: flex-end;
+
+}
+

@@ -1,0 +1,22 @@
+body {
+    display: frex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(148, 98, 48);
+}
+
+
+canvas {
+    border: 2px solid green
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-20%);
+    font-size: 24px;
+    color: white
+}

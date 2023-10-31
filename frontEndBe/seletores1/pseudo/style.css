@@ -1,0 +1,41 @@
+body {
+     font: normal 1em Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(40, 148, 40);
+}
+
+a:visited {
+    color: rgb(151, 199, 151);
+}
+
+a:hover {
+    text-decoration: dotted;
+}
+
+.especial:hover {
+    color: aliceblue;
+    background-color: black;
+    text-decoration: none;
+}
+
+.especial::before {
+    content: '+';
+    font-weight: lighter;
+}
+.especial::after {
+    content: '*';
+    font-weight: lighter;
+}
+
+div {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    background-color: aliceblue;
+}

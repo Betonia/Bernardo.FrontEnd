@@ -1,0 +1,15 @@
+header{
+    background-color:rgba(173, 140, 232, 0.814);
+    color(srgb red green blue)
+    padding: 100px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+
+}
+
+nav ul{
+    display: inline;
+    margin-right: 20px;
+}
